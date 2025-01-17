@@ -28,8 +28,9 @@ main{
 }
 .contents h2{
   font-size: 25px;
-  border-bottom: dashed 3px rgb(236,122,122);
-  /* text-decoration: underline; */
+  /* 指摘箇所修正 */
+  /* border-bottom: dashed 3px rgb(236,122,122); ←修正前 */
+  text-decoration: underline dashed 3px rgb(236,122,122); 
 }
 .contents h2::before{
   content: "●";
